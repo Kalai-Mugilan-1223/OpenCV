@@ -6,7 +6,7 @@ def frame_rescale(frame,scale = 0.75):
     dimensions = (width,height)
     return cv.resize(frame,dimensions,interpolation=cv.INTER_AREA)
 
-capture  = cv.VideoCapture('D:\\code-tools\\Code\\Python\\OpenCV\\read-images-videos\\Videos\\Leo x deadpool_mixdown_1.mp4')
+capture  = cv.VideoCapture('2.resizing-and-rescaling\\Videos\\cat.mp4')
 
 while True:
     isTrue,frame = capture.read()
