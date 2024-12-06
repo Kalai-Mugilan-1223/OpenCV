@@ -8,7 +8,7 @@ def frame_rescale(frame,scale = 0.75):
 
 
 
-img = cv.imread('read-images-videos\\Images\\Kadisi Ulaga por x Big Dawgs.png')
+img = cv.imread('2.resizing-and-rescaling\\Images\\Kadisi Ulaga por x Big Dawgs.png')
 cv.imshow('Big-Dawgs',img)
 
 img_resized = frame_rescale(img,0.3)
