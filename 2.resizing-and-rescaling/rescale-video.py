@@ -10,7 +10,7 @@ capture  = cv.VideoCapture('2.resizing-and-rescaling\\Videos\\cat.mp4')
 
 while True:
     isTrue,frame = capture.read()
-    cv.imshow('D&Wxleo',frame)
+    cv.imshow('Cat',frame)
     resized_frame = frame_rescale(frame,0.65)
     cv.imshow('Resized',resized_frame)
     if cv.waitKey(20) & 0xFF == ord('d'):
